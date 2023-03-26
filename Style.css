@@ -1,0 +1,95 @@
+
+body{
+    background-image: url("background.jpg"); 
+    background-size: 100%;
+}
+
+/* Logo e testa */
+
+.contenitore {
+    background-color: rgba(0, 0, 0, 50%);
+    width: 1400px;
+    height: 850px;
+    margin:auto;
+    border-radius: 5%;  
+    
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > h1 {
+    color: lime;
+    text-align: center;
+}
+
+header > section {
+    
+    background-color: lime;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="button"] {
+    margin-top: 12px;
+}
+
+
+/* Prenotazioni */
+
+
+div > section {
+    display: inline-block;
+    color: white;
+    padding-left:10%;
+}
+
+section > h2{
+    display: inline-block;
+}
+
+p > span{
+    display:block;
+}
+
+.info{
+    display: block;
+}
+
+/* Carica del monopattino*/
+
+section > span{
+    display: inline-block;
+}
+
+.media{
+    margin-top:10px;
+    background-color: orange;
+    width: 120%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.alta{
+    margin-top:10px;
+    background-color: lime;
+    width: 200%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.bassa
+{
+    margin-top:10px;
+    background-color: brown;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
